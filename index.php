@@ -87,7 +87,8 @@ VALUES ( '$icPatient', '$password', '$patientFirstName', '$patientLastName', '$p
     <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
     <!-- <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
     <!--Font Awesome (added because you use icons in your prepend/append)-->
     <link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link href="assets/css/material.css" rel="stylesheet">
@@ -310,8 +311,8 @@ VALUES ( '$icPatient', '$password', '$patientFirstName', '$patientLastName', '$p
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <h2>Make appointment today!</h2>
-                    <p>This is Doctor's Schedule. Please <span class="label label-danger">login</span> to make an appointment. </p>
+                    <h2 style="font-family:'Trebuchet MS';">Make <span style="font-family:Ubuntu; color:red">Appointment</span> Today!</h2>
+                    <p>This is Doctor's Schedule. Please <span class="label label-success">Login</span> to make an appointment. </p>
 
                     <!-- date textbox -->
 
@@ -376,44 +377,65 @@ VALUES ( '$icPatient', '$password', '$patientFirstName', '$patientLastName', '$p
     <!-- second section start -->
     <div class="container">
         <div class="underlined-title">
-            <h1>Get in Touch</h1>
+            <h3 style="font-family:Ubuntu;">Get in <span class="label label-danger">Touch</span> </h3>
             <hr>
-            <h2>Feel free to drop us a line to contact us</h2>
+            <h2>PRECAUTIONS TO BE TAKEN</h2>
         </div>
-        <div class="row">
-            <div class="col s12 m6 l3">
-                <div class="card purple darken-1">
-                    <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+        <div class="row" style="font-family:Ubuntu;">
+            <div class="col s12 m6 l4">
+                <div class="card  red darken-2" style="border-radius:15px 50px;">
+                    <div class="card-content yellow-text">
+                        <span class="card-title">LISTEN TO YOUR SIGNS</span>
+                        <p class="white-text">Which are not directly related to an ear, nose or throat problem like a sore throat,
+                            experiencing ringing in your ears, or from sleep apnea.</p>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l3">
-                <div class="card light-green darken-1">
+            <div class="col s12 m6 l4">
+                <div class="card  teal darken-4" style="border-radius:50px 15px;">
                     <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                        <span class="card-title">EAR CLEANING MISTAKES</span>
+                        <p class="pink-text">Sticking any foreign body into your ears can be dangerous,
+                            especially if the thin skin of the ear canal is damaged.</p>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l3">
-                <div class="card blue darken-1">
+            <div class="col s12 m6 l4">
+                <div class="card purple darken-4" style="border-radius:15px 50px;">
                     <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                        <span class="card-title">REGULAR SCREENING</span>
+                        <p class="green-text">Regular screening can help detect ear,
+                            nose and throat problems and can prevent the person from pain and infection.</p>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l3">
-                <div class="card orange darken-1">
+        </div>
+        <div class="row" style="font-family:'Ubuntu', sans-serif;">
+            <div class="col s12 m6 l4">
+                <div class="card grey darken-3" style="border-radius:50px 15px;">
                     <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                        <span class="card-title">TOO LOUD FOR TOO LONG</span>
+                        <p class="yellow-text">The tiny hair cells present in the ear can be easily damaged by repeated exposure
+                            to loud music and ultimately results in loss of hearing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col s12 m6 l4">
+                <div class="card light-green darken-1" style="border-radius:15px 50px;">
+                    <div class="card-content white-text">
+                        <span class="card-title">KEEP SWIMMING SAFE</span>
+                        <p class="black-text">Swimmer’s ear is a painful condition usually faced by swimmers when water
+                            gets trapped into the ear which results in the spread of bacteria.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card blue darken-1" style="border-radius:50px 15px;">
+                    <div class="card-content black-text">
+                        <span class="card-title">VOICE MISUSE</span>
+                        <p class="yellow-text">The constant strain on the vocal cords like shouting
+                            and screaming causes swelling and may lead to long term problems.</p>
                     </div>
                 </div>
             </div>
