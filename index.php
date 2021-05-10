@@ -92,6 +92,7 @@ VALUES ( '$icPatient', '$password', '$patientFirstName', '$patientLastName', '$p
     <!--Font Awesome (added because you use icons in your prepend/append)-->
     <link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link href="assets/css/material.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 
 <body>
@@ -361,18 +362,12 @@ VALUES ( '$icPatient', '$password', '$patientFirstName', '$patientLastName', '$p
                     <!-- table appointment end -->
                 </div>
                 <!-- /.col -->
-                <!--  <div class="col-md-6 col-md-offset-1">
-                        <div class="video-wrapper">
-                            <iframe width="560" height="315" src="http://www.youtube.com/embed/FEoQFbzLYhc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div> -->
-                <!-- /.col -->
+
             </div>
             <!-- /.row -->
         </div>
     </section>
     <!-- first section end -->
-
 
     <!-- second section start -->
     <div class="container">
@@ -385,27 +380,28 @@ VALUES ( '$icPatient', '$password', '$patientFirstName', '$patientLastName', '$p
             <div class="col s12 m6 l4">
                 <div class="card  red darken-2" style="border-radius:15px 50px;">
                     <div class="card-content yellow-text">
-                        <span class="card-title">LISTEN TO YOUR SIGNS</span>
-                        <p class="white-text">Which are not directly related to an ear, nose or throat problem like a sore throat,
-                            experiencing ringing in your ears, or from sleep apnea.</p>
+                        <span class="card-title"><i class="fas fa-people-arrows"></i> Stay 6 Feet Away</span>
+                        <p class="white-text">If possible, maintain 6 feet between the person who is sick and other household members.
+                            Remember that some people without symptoms may be able to spread virus.</p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l4">
                 <div class="card  teal darken-4" style="border-radius:50px 15px;">
                     <div class="card-content white-text">
-                        <span class="card-title">EAR CLEANING MISTAKES</span>
-                        <p class="pink-text">Sticking any foreign body into your ears can be dangerous,
-                            especially if the thin skin of the ear canal is damaged.</p>
+                        <span class="card-title"><i class="fas fa-head-side-mask"></i> Wear a Mask</span>
+                        <p class="pink-text">Everyone 2 years and older should wear masks in public.
+                            Wear your mask over your nose and mouth and secure it under your chin.
+                            Make sure you can breathe easily.</p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l4">
                 <div class="card purple darken-4" style="border-radius:15px 50px;">
                     <div class="card-content white-text">
-                        <span class="card-title">REGULAR SCREENING</span>
-                        <p class="green-text">Regular screening can help detect ear,
-                            nose and throat problems and can prevent the person from pain and infection.</p>
+                        <span class="card-title"><i class="fas fa-band-aid"></i> Get Vaccinated</span>
+                        <p class="green-text">Authorized COVID-19 vaccines can help protect you from COVID-19.
+                            You should get a COVID-19 vaccine when it is available to you. COVID-19 vaccines are safe and effective.</p>
                     </div>
                 </div>
             </div>
@@ -414,9 +410,9 @@ VALUES ( '$icPatient', '$password', '$patientFirstName', '$patientLastName', '$p
             <div class="col s12 m6 l4">
                 <div class="card grey darken-3" style="border-radius:50px 15px;">
                     <div class="card-content white-text">
-                        <span class="card-title">TOO LOUD FOR TOO LONG</span>
-                        <p class="yellow-text">The tiny hair cells present in the ear can be easily damaged by repeated exposure
-                            to loud music and ultimately results in loss of hearing.
+                        <span class="card-title"><i class="fas fa-users-slash"></i> Avoid Crowds & Poorly Ventilated</span>
+                        <p class="yellow-text">Being in crowds like in restaurants, bars, fitness centers,
+                            or movie theaters puts you at higher risk for COVID-19.
                         </p>
                     </div>
                 </div>
@@ -424,24 +420,24 @@ VALUES ( '$icPatient', '$password', '$patientFirstName', '$patientLastName', '$p
             <div class=" col s12 m6 l4">
                 <div class="card light-green darken-1" style="border-radius:15px 50px;">
                     <div class="card-content white-text">
-                        <span class="card-title">KEEP SWIMMING SAFE</span>
-                        <p class="black-text">Swimmer’s ear is a painful condition usually faced by swimmers when water
-                            gets trapped into the ear which results in the spread of bacteria.</p>
+                        <span class="card-title"><i class="fas fa-hands-wash"></i> Wash Your Hands Often</span>
+                        <p class="black-text">Wash your hands often with soap and water for at least 20 seconds
+                            especially after you have been in a public place,
+                            or after blowing your nose, coughing, or sneezing.</p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l4">
                 <div class="card blue darken-1" style="border-radius:50px 15px;">
                     <div class="card-content black-text">
-                        <span class="card-title">VOICE MISUSE</span>
-                        <p class="yellow-text">The constant strain on the vocal cords like shouting
-                            and screaming causes swelling and may lead to long term problems.</p>
+                        <span class="card-title"><i class="fas fa-box-tissue"></i> Cover Coughs & Sneezes</span>
+                        <p class="yellow-text">If you are wearing a mask: You can cough or sneeze into your mask.
+                            Put on a new, clean mask as soon as possible and wash your hands.Immediately wash your hands with soap and water.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- second section end -->
     <!-- footer start -->
     <div class="copyright-bar bg-black">

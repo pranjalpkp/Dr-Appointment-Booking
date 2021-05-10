@@ -29,6 +29,7 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
         <link href="assets/css/sb-admin.css" rel="stylesheet">
         <link href="assets/css/style.css" rel="stylesheet">
         <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
         <!-- Custom Fonts -->
     </head>
     <body>
@@ -93,7 +94,7 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
                             </h2>
                             <ol class="breadcrumb">
                                 <li class="active">
-                                    <i class="fa fa-file"></i> Blank Page
+                                    <!-- <i class="fa fa-file"></i> Blank Page -->
                                 </li>
                             </ol>
                         </div>
@@ -174,7 +175,7 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
                                     echo "<td><span class='glyphicon glyphicon-".$icon."' aria-hidden='true'></span>".' '."". $appointment['status'] . "</td>";
                                     echo "<form method='POST'>";
                                     echo "<td class='text-center'><input type='checkbox' name='enable' id='enable' value='".$appointment['appId']."' onclick='chkit(".$appointment['appId'].",this.checked);' ".$checked."></td>";
-                                    echo "<td class='text-center'><a href='#' id='".$appointment['appId']."' class='delete'><span class='glyphicon glyphicon-trash' aria-hidden='true'></span></a>
+                                    echo "<td class='text-center'><a href='#' id='".$appointment['appId']. "' class='delete'><span class='fas fa-trash-alt' aria-hidden='true'></span></a>
                             </td>";
                                
                             } 
